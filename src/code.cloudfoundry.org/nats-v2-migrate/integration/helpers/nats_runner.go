@@ -74,5 +74,7 @@ func (runner *NATSRunner) Start(version ...string) {
 	Eventually(func() error {
 		_, err = nats.Connect(fmt.Sprintf("nats://127.0.0.1:%d", runner.port))
 		return err
-	}, 5, 0.1).ShouldNot(HaveOccurred())
+	}).
+		WithTimeout(5 * time.Second).
+		ShouldNot(HaveOccurred())
 }
