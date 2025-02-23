@@ -9,7 +9,7 @@ files:
   - code.cloudfoundry.org/go.sum
   - code.cloudfoundry.org/vendor/modules.txt
   - code.cloudfoundry.org/vendor/github.com/klauspost/compress/flate/*.go # gosub
-  - code.cloudfoundry.org/vendor/github.com/klauspost/compress/flate/*.s # gosub
+  - code.cloudfoundry.org/vendor/github.com/klauspost/compress/internal/le/*.go # gosub
   - code.cloudfoundry.org/vendor/github.com/klauspost/compress/internal/race/*.go # gosub
   - code.cloudfoundry.org/vendor/github.com/klauspost/compress/s2/*.go # gosub
   - code.cloudfoundry.org/vendor/github.com/klauspost/compress/s2/*.s # gosub
