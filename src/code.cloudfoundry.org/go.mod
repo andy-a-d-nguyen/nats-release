@@ -8,11 +8,11 @@ toolchain go1.23.6
 replace github.com/nats-io/gnatsd => github.com/nats-io/gnatsd v1.4.1
 
 require (
-	code.cloudfoundry.org/cf-networking-helpers v0.37.0
-	code.cloudfoundry.org/lager/v3 v3.26.0
-	code.cloudfoundry.org/tlsconfig v0.18.0
+	code.cloudfoundry.org/cf-networking-helpers v0.38.0
+	code.cloudfoundry.org/lager/v3 v3.27.0
+	code.cloudfoundry.org/tlsconfig v0.19.0
 	github.com/nats-io/gnatsd v1.4.1
-	github.com/nats-io/nats-server/v2 v2.10.25
+	github.com/nats-io/nats-server/v2 v2.10.26
 	github.com/nats-io/nats.go v1.39.1
 	github.com/onsi/ginkgo/v2 v2.22.2
 	github.com/onsi/gomega v1.36.2
@@ -35,9 +35,9 @@ require (
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/square/certstrap v1.3.0 // indirect
-	go.step.sm/crypto v0.58.0 // indirect
+	go.step.sm/crypto v0.59.0 // indirect
 	go.uber.org/automaxprocs v1.6.0 // indirect
-	golang.org/x/crypto v0.34.0 // indirect
+	golang.org/x/crypto v0.35.0 // indirect
 	golang.org/x/net v0.35.0 // indirect
 	golang.org/x/sys v0.30.0 // indirect
 	golang.org/x/text v0.22.0 // indirect
