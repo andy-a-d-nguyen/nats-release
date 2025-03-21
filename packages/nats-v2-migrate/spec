@@ -4,7 +4,7 @@
 name: nats-v2-migrate
 
 dependencies:
-    - golang-1.23-linux
+    - golang-1.24-linux
 
 files:
   - code.cloudfoundry.org/go.mod
