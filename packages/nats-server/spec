@@ -8,6 +8,9 @@ files:
   - code.cloudfoundry.org/go.mod
   - code.cloudfoundry.org/go.sum
   - code.cloudfoundry.org/vendor/modules.txt
+  - code.cloudfoundry.org/vendor/github.com/google/go-tpm/legacy/tpm2/*.go # gosub
+  - code.cloudfoundry.org/vendor/github.com/google/go-tpm/tpmutil/*.go # gosub
+  - code.cloudfoundry.org/vendor/github.com/google/go-tpm/tpmutil/tbs/*.go # gosub
   - code.cloudfoundry.org/vendor/github.com/klauspost/compress/flate/*.go # gosub
   - code.cloudfoundry.org/vendor/github.com/klauspost/compress/internal/le/*.go # gosub
   - code.cloudfoundry.org/vendor/github.com/klauspost/compress/internal/race/*.go # gosub
@@ -29,6 +32,8 @@ files:
   - code.cloudfoundry.org/vendor/github.com/nats-io/nats-server/v2/server/pse/*.go # gosub
   - code.cloudfoundry.org/vendor/github.com/nats-io/nats-server/v2/server/stree/*.go # gosub
   - code.cloudfoundry.org/vendor/github.com/nats-io/nats-server/v2/server/sysmem/*.go # gosub
+  - code.cloudfoundry.org/vendor/github.com/nats-io/nats-server/v2/server/thw/*.go # gosub
+  - code.cloudfoundry.org/vendor/github.com/nats-io/nats-server/v2/server/tpm/*.go # gosub
   - code.cloudfoundry.org/vendor/github.com/nats-io/nkeys/*.go # gosub
   - code.cloudfoundry.org/vendor/github.com/nats-io/nuid/*.go # gosub
   - code.cloudfoundry.org/vendor/go.uber.org/automaxprocs/internal/cgroups/*.go # gosub
