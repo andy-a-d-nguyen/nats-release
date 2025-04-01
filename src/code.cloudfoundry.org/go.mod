@@ -9,8 +9,8 @@ replace github.com/nats-io/gnatsd => github.com/nats-io/gnatsd v1.4.1
 
 require (
 	code.cloudfoundry.org/cf-networking-helpers v0.40.0
-	code.cloudfoundry.org/lager/v3 v3.31.0
-	code.cloudfoundry.org/tlsconfig v0.22.0
+	code.cloudfoundry.org/lager/v3 v3.32.0
+	code.cloudfoundry.org/tlsconfig v0.23.0
 	github.com/nats-io/gnatsd v1.4.1
 	github.com/nats-io/nats-server/v2 v2.11.0
 	github.com/nats-io/nats.go v1.40.1
