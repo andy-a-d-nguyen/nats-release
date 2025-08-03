@@ -1,8 +1,8 @@
-# code.cloudfoundry.org/cf-networking-helpers v0.52.0
+# code.cloudfoundry.org/cf-networking-helpers v0.53.0
 ## explicit; go 1.23.0
 code.cloudfoundry.org/cf-networking-helpers/certauthority
 code.cloudfoundry.org/cf-networking-helpers/portauthority
-# code.cloudfoundry.org/lager/v3 v3.41.0
+# code.cloudfoundry.org/lager/v3 v3.42.0
 ## explicit; go 1.23.0
 code.cloudfoundry.org/lager/v3
 code.cloudfoundry.org/lager/v3/internal/truncate
@@ -46,7 +46,7 @@ github.com/nats-io/gnatsd/server
 github.com/nats-io/gnatsd/server/pse
 # github.com/nats-io/go-nats v1.7.2
 ## explicit
-# github.com/nats-io/nats.go v1.43.0
+# github.com/nats-io/nats.go v1.44.0
 ## explicit; go 1.23.0
 github.com/nats-io/nats.go
 github.com/nats-io/nats.go/encoders/builtin
@@ -112,12 +112,12 @@ github.com/tedsuo/ifrit
 github.com/tedsuo/ifrit/grouper
 github.com/tedsuo/ifrit/http_server
 github.com/tedsuo/ifrit/sigmon
-# go.step.sm/crypto v0.67.0
+# go.step.sm/crypto v0.68.0
 ## explicit; go 1.23.0
 go.step.sm/crypto/fingerprint
 go.step.sm/crypto/internal/bcrypt_pbkdf
 go.step.sm/crypto/internal/emoji
-go.step.sm/crypto/internal/utils
+go.step.sm/crypto/internal/utils/file
 go.step.sm/crypto/internal/utils/utfbom
 go.step.sm/crypto/keyutil
 go.step.sm/crypto/pemutil
