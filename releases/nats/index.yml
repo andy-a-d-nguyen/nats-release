@@ -183,6 +183,8 @@ builds:
     version: "11"
   cf431865-05fa-4569-8b73-3ffcf110ba65:
     version: "4"
+  d0baaec1-d5c2-4429-7cc1-497d2c854c15:
+    version: 56.56.0
   d38a0036-45be-40aa-6798-4ac664294d2e:
     version: 56.16.0
   d4a66066-f10d-4b82-4df4-88eaf9028cda:
