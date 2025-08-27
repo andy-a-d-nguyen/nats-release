@@ -7,10 +7,7 @@ THIS_FILE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )
 CI="${THIS_FILE_DIR}/../../wg-app-platform-runtime-ci"
 . "$CI/shared/helpers/release-note-helpers.bash"
 . "$CI/shared/helpers/git-helpers.bash"
-REPO_NAME=$(git_get_remote_name)
-REPO_PATH="${THIS_FILE_DIR}/../"
 unset THIS_FILE_DIR
-
 
 # ex. version_range="v0.343.0...v0.344.0"
 version_range="${1:?Please provide the start and end versions you want to generate release notes for './generate-release-notes.bash start_ref...end_ref' }"
