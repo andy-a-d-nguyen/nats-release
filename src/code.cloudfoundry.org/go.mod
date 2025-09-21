@@ -6,8 +6,8 @@ go 1.24.0
 replace github.com/nats-io/gnatsd => github.com/nats-io/gnatsd v1.4.1
 
 require (
-	code.cloudfoundry.org/cf-networking-helpers v0.58.0
-	code.cloudfoundry.org/lager/v3 v3.47.0
+	code.cloudfoundry.org/cf-networking-helpers v0.60.0
+	code.cloudfoundry.org/lager/v3 v3.48.0
 	code.cloudfoundry.org/tlsconfig v0.35.0
 	github.com/nats-io/gnatsd v1.4.1
 	github.com/nats-io/nats.go v1.45.0
@@ -23,7 +23,7 @@ require (
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
-	github.com/google/pprof v0.0.0-20250903194437-c28834ac2320 // indirect
+	github.com/google/pprof v0.0.0-20250919162441-8b542baf5bcf // indirect
 	github.com/klauspost/compress v1.18.0 // indirect
 	github.com/nats-io/go-nats v1.7.2 // indirect
 	github.com/nats-io/nkeys v0.4.11 // indirect
