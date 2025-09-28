@@ -1,8 +1,8 @@
-# code.cloudfoundry.org/cf-networking-helpers v0.60.0
+# code.cloudfoundry.org/cf-networking-helpers v0.61.0
 ## explicit; go 1.24.0
 code.cloudfoundry.org/cf-networking-helpers/certauthority
 code.cloudfoundry.org/cf-networking-helpers/portauthority
-# code.cloudfoundry.org/lager/v3 v3.48.0
+# code.cloudfoundry.org/lager/v3 v3.49.0
 ## explicit; go 1.24.0
 code.cloudfoundry.org/lager/v3
 code.cloudfoundry.org/lager/v3/internal/truncate
@@ -33,7 +33,7 @@ github.com/google/go-cmp/cmp/internal/diff
 github.com/google/go-cmp/cmp/internal/flags
 github.com/google/go-cmp/cmp/internal/function
 github.com/google/go-cmp/cmp/internal/value
-# github.com/google/pprof v0.0.0-20250919162441-8b542baf5bcf
+# github.com/google/pprof v0.0.0-20250923004556-9e5a51aed1e8
 ## explicit; go 1.24.0
 github.com/google/pprof/profile
 # github.com/klauspost/compress v1.18.0
@@ -49,7 +49,7 @@ github.com/nats-io/gnatsd/server
 github.com/nats-io/gnatsd/server/pse
 # github.com/nats-io/go-nats v1.7.2
 ## explicit
-# github.com/nats-io/nats.go v1.45.0
+# github.com/nats-io/nats.go v1.46.0
 ## explicit; go 1.23.0
 github.com/nats-io/nats.go
 github.com/nats-io/nats.go/encoders/builtin
