@@ -17,8 +17,6 @@ local_end_ref=$(get_end_ref_from_range "${version_range}")
 GO_MOD_LOCATION="src/code.cloudfoundry.org/go.mod";
 BOSH_BLOBS_LOCATION="config/blobs.yml";
 
-get_non_bot_commits "${local_start_ref}" "${local_end_ref}"
-echo ""
+display_non_bot_commits "${local_start_ref}" "${local_end_ref}"
 display_blob_change_info "${local_start_ref}" "${local_end_ref}" "${BOSH_BLOBS_LOCATION}"
-echo ""
 display_go_mod_diff "${local_start_ref}" "${local_end_ref}" "${GO_MOD_LOCATION}"
