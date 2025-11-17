@@ -211,6 +211,8 @@ builds:
     version: "54"
   d55283ef-7b45-4e00-4690-d8dc07214fec:
     version: "29"
+  d89f6801-a22b-4d07-4c64-58067fcbf6f8:
+    version: 56.66.0
   dcdebf43-59ba-409b-4190-f56abc983718:
     version: "30"
   e700ece8-f6bc-4575-4f21-97d6f3e68d37:
