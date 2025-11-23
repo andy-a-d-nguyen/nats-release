@@ -1,13 +1,13 @@
-# code.cloudfoundry.org/cf-networking-helpers v0.66.0
+# code.cloudfoundry.org/cf-networking-helpers v0.67.0
 ## explicit; go 1.24.0
 code.cloudfoundry.org/cf-networking-helpers/certauthority
 code.cloudfoundry.org/cf-networking-helpers/portauthority
-# code.cloudfoundry.org/lager/v3 v3.54.0
+# code.cloudfoundry.org/lager/v3 v3.55.0
 ## explicit; go 1.24.0
 code.cloudfoundry.org/lager/v3
 code.cloudfoundry.org/lager/v3/internal/truncate
 code.cloudfoundry.org/lager/v3/lagerflags
-# code.cloudfoundry.org/tlsconfig v0.39.0
+# code.cloudfoundry.org/tlsconfig v0.40.0
 ## explicit; go 1.24.0
 code.cloudfoundry.org/tlsconfig
 # filippo.io/edwards25519 v1.1.0
@@ -55,8 +55,8 @@ github.com/nats-io/nats.go
 github.com/nats-io/nats.go/encoders/builtin
 github.com/nats-io/nats.go/internal/parser
 github.com/nats-io/nats.go/util
-# github.com/nats-io/nkeys v0.4.11
-## explicit; go 1.23.0
+# github.com/nats-io/nkeys v0.4.12
+## explicit; go 1.24.0
 github.com/nats-io/nkeys
 # github.com/nats-io/nuid v1.0.1
 ## explicit
@@ -131,7 +131,7 @@ go.step.sm/crypto/x25519
 # go.yaml.in/yaml/v3 v3.0.4
 ## explicit; go 1.16
 go.yaml.in/yaml/v3
-# golang.org/x/crypto v0.44.0
+# golang.org/x/crypto v0.45.0
 ## explicit; go 1.24.0
 golang.org/x/crypto/bcrypt
 golang.org/x/crypto/blake2b
