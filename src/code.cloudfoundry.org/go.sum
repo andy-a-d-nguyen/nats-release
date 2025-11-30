@@ -596,8 +596,8 @@ code.cloudfoundry.org/cf-networking-helpers v0.67.0 h1:gAy5tdD3wt5206Z00mJpU75eH
 code.cloudfoundry.org/cf-networking-helpers v0.67.0/go.mod h1:up0lltkf/ZvzRsgRVwCgzbBH0JXg/5DC1GAoReKOzX0=
 code.cloudfoundry.org/lager/v3 v3.55.0 h1:viHGEjAl6drHqOppRXU+ZpZZUjikO5o/tI4mY//WpQg=
 code.cloudfoundry.org/lager/v3 v3.55.0/go.mod h1:1mXk1+RPluzvyusvJkrZE3KtKzmDGXoRDnVX33zthZw=
-code.cloudfoundry.org/tlsconfig v0.40.0 h1:TwQTN3WgCIH+j0yPXUQQy0jV9Z4FOzTuxaAWAMVd+ZU=
-code.cloudfoundry.org/tlsconfig v0.40.0/go.mod h1:Isd5XjgtHHf/Co2DesnzqEWZZq5Al5+ECU4mg8BZ0Tg=
+code.cloudfoundry.org/tlsconfig v0.41.0 h1:b3QbVHcWqUZJwpG2JZjlCsU8MHViHtUiCuknGkdkEZ8=
+code.cloudfoundry.org/tlsconfig v0.41.0/go.mod h1:WSmsKBmhmTzNJjtVTLyguqHVB3Hb0OIF+Z9a/wJVCi8=
 dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7gZCb22OMCxBHrMx7a5I7Hp++hsVxbQ4BYO7hU=
 filippo.io/edwards25519 v1.1.0 h1:FNf4tywRC1HmFuKW5xopWpigGjJKiJSV0Cqo0cJWDaA=
 filippo.io/edwards25519 v1.1.0/go.mod h1:BxyFTGdWcka3PhytdK4V28tE5sGfRvvvRV7EaN4VDT4=
