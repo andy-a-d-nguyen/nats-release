@@ -195,6 +195,8 @@ builds:
     version: "8"
   ccf0bce4-c190-4c75-8eb6-66a545c59ce7:
     version: "11"
+  ce630a98-b48d-4c50-42a6-abdac1bad993:
+    version: 56.68.0
   ce7eea80-3997-4813-7d0d-ac7f14e557c5:
     version: 56.64.0
   cf431865-05fa-4569-8b73-3ffcf110ba65:
