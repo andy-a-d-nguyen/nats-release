@@ -1,4 +1,4 @@
-nats-server-gh-release/nats-server-v2.12.4-linux-amd64.tar.gz:
-  size: 6586735
-  object_id: 67a6b7b2-07ff-4e6e-448b-bb12d5d1f9ec
-  sha: sha256:92388f2e4aa1e6dea402eb173cbdb1fcb1df9a9c899cb807b91ddbb45c131b65
+nats-server-gh-release/nats-server-v2.12.5-linux-amd64.tar.gz:
+  size: 6611811
+  object_id: dbe20c8c-dfab-4b3e-61c3-b888623a9bfc
+  sha: sha256:f1967bea3fbf6c86273f1a2edf5be65165d795716ae1ac2a14824f19cdc35c20
