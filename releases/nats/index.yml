@@ -129,6 +129,8 @@ builds:
     version: "56"
   7ce570a5-f8a1-410b-484e-90dc59575486:
     version: 56.1.0
+  7d0aa38a-9c3f-4db8-4044-cfac2d28bdc2:
+    version: 57.1.0
   7d843318-4435-4b4c-71c6-bf9d88907bf6:
     version: 56.34.0
   81453d8a-5764-4206-6dae-833f8bbb5f85:
