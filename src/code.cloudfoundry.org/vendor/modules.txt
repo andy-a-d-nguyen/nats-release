@@ -7,7 +7,7 @@ code.cloudfoundry.org/cf-networking-helpers/portauthority
 code.cloudfoundry.org/lager/v3
 code.cloudfoundry.org/lager/v3/internal/truncate
 code.cloudfoundry.org/lager/v3/lagerflags
-# code.cloudfoundry.org/tlsconfig v0.48.0
+# code.cloudfoundry.org/tlsconfig v0.50.0
 ## explicit; go 1.25.0
 code.cloudfoundry.org/tlsconfig
 # filippo.io/edwards25519 v1.2.0
@@ -31,15 +31,15 @@ github.com/google/go-cmp/cmp/internal/diff
 github.com/google/go-cmp/cmp/internal/flags
 github.com/google/go-cmp/cmp/internal/function
 github.com/google/go-cmp/cmp/internal/value
-# github.com/google/pprof v0.0.0-20260302011040-a15ffb7f9dcc
+# github.com/google/pprof v0.0.0-20260402051712-545e8a4df936
 ## explicit; go 1.24.0
 github.com/google/pprof/profile
 # github.com/klauspost/compress v1.18.5
 ## explicit; go 1.24
 github.com/klauspost/compress/flate
 github.com/klauspost/compress/internal/le
-# github.com/nats-io/nats.go v1.49.0
-## explicit; go 1.24.0
+# github.com/nats-io/nats.go v1.50.0
+## explicit; go 1.25.0
 github.com/nats-io/nats.go
 github.com/nats-io/nats.go/encoders/builtin
 github.com/nats-io/nats.go/internal/parser
@@ -105,7 +105,7 @@ github.com/tedsuo/ifrit
 github.com/tedsuo/ifrit/grouper
 github.com/tedsuo/ifrit/http_server
 github.com/tedsuo/ifrit/sigmon
-# go.step.sm/crypto v0.77.1
+# go.step.sm/crypto v0.77.2
 ## explicit; go 1.25.0
 go.step.sm/crypto/fingerprint
 go.step.sm/crypto/internal/bcrypt_pbkdf
