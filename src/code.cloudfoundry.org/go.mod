@@ -3,7 +3,7 @@ module code.cloudfoundry.org
 go 1.25.0
 
 require (
-	code.cloudfoundry.org/cf-networking-helpers v0.82.0
+	code.cloudfoundry.org/cf-networking-helpers v0.83.0
 	code.cloudfoundry.org/lager/v3 v3.66.0
 	code.cloudfoundry.org/tlsconfig v0.51.0
 	github.com/nats-io/nats.go v1.51.0
@@ -25,7 +25,7 @@ require (
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/square/certstrap v1.3.0 // indirect
-	go.step.sm/crypto v0.77.2 // indirect
+	go.step.sm/crypto v0.77.7 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/crypto v0.50.0 // indirect
 	golang.org/x/mod v0.35.0 // indirect
