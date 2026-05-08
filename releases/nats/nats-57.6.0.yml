@@ -1,0 +1,67 @@
+name: nats
+version: 57.6.0
+commit_hash: 8c93ad4
+uncommitted_changes: false
+jobs:
+- name: nats
+  version: 93695e2ad5a6a751e000729d996b72883e5d38a1ef8eb2a15a3f43214ef7aab0
+  fingerprint: 93695e2ad5a6a751e000729d996b72883e5d38a1ef8eb2a15a3f43214ef7aab0
+  sha1: sha256:314ca6fa530432fc23c770831eaac7413a960be0425611a3f43476a0db41b4e8
+  packages:
+  - nats-server
+  - nats-v2-wrapper
+  - pid_utils
+- name: nats-tls
+  version: 29eef973eee43873e76f5b6afd7e82a6e2f56b897f838702667abc66d88914ae
+  fingerprint: 29eef973eee43873e76f5b6afd7e82a6e2f56b897f838702667abc66d88914ae
+  sha1: sha256:63b871704ff8a066333f6a41409618e954a077f54ce878a53e45dbb00e382b08
+  packages:
+  - nats-server
+  - nats-v2-wrapper
+  - nats-tls-healthcheck
+  - pid_utils
+- name: smoke-tests
+  version: d0171675435288c416a6b680c158ae57e29f2ff0c91648581090f8e1039b23b2
+  fingerprint: d0171675435288c416a6b680c158ae57e29f2ff0c91648581090f8e1039b23b2
+  sha1: sha256:547bca14b390e6249fb4b2b38b0773e6d0e55546f4d616d4685f2a800e8b3439
+  packages:
+  - nats-smoke
+packages:
+- name: golang-1.26-linux
+  version: 13cae133eddfb84c2b42976ae01abbac89ab1f092697457046e596037adc6ff5
+  fingerprint: 13cae133eddfb84c2b42976ae01abbac89ab1f092697457046e596037adc6ff5
+  sha1: sha256:78477e64964ecad25dd76a7cc0bc04310f6a12c403b782c9ad62caf9fd73633a
+  dependencies: []
+- name: nats-server
+  version: 9ce1b2e8819a36f61f16b0f68b56b1dfc2bf5e94ce0dc7c8f841e216a5e3b90d
+  fingerprint: 9ce1b2e8819a36f61f16b0f68b56b1dfc2bf5e94ce0dc7c8f841e216a5e3b90d
+  sha1: sha256:45386f53b1c4d835258bf899b584bc3d3f239526f70d36523ef3872fc80a7a6d
+  dependencies: []
+- name: nats-smoke
+  version: 5d53007c2a355056d78b66ff2b6eb984ecda8358cff9b87c97a2f1aafa5a87de
+  fingerprint: 5d53007c2a355056d78b66ff2b6eb984ecda8358cff9b87c97a2f1aafa5a87de
+  sha1: sha256:0aed45696137ded12d8f00afd6b51de4af27ab03c3fc5d327793314e56865565
+  dependencies:
+  - golang-1.26-linux
+- name: nats-tls-healthcheck
+  version: e185c602f930023f0631bbdabdde19d05381c71bc117f10da46b510201c2ea7b
+  fingerprint: e185c602f930023f0631bbdabdde19d05381c71bc117f10da46b510201c2ea7b
+  sha1: sha256:194c844f70653deae6623c66eb4630c1c8e15552d348e424fe658fa77b2cc9da
+  dependencies:
+  - golang-1.26-linux
+- name: nats-v2-wrapper
+  version: 4f8f61c8e02f116dc347f29425c876d8acd6f3daec97d02b4d5b43ec4360523c
+  fingerprint: 4f8f61c8e02f116dc347f29425c876d8acd6f3daec97d02b4d5b43ec4360523c
+  sha1: sha256:39166c2a45e5bed502b740eafa8b2c2389864fcd49e24ff7c575ae401473a1ca
+  dependencies:
+  - golang-1.26-linux
+- name: pid_utils
+  version: 07f3634e045adb986ae19ccd952e1fbc7e7a629d6c48487697737781da7de56d
+  fingerprint: 07f3634e045adb986ae19ccd952e1fbc7e7a629d6c48487697737781da7de56d
+  sha1: sha256:4c28e5116981edbf8d60a202356ce8174112049f62afb9a9e56999a031db0ae4
+  dependencies: []
+license:
+  version: 03d3298216ff6caa85c599c878020012fbf74adf4ab427407f7585d005b2c4b5
+  fingerprint: 03d3298216ff6caa85c599c878020012fbf74adf4ab427407f7585d005b2c4b5
+  sha1: sha256:2b36f342a58d00279fd1752c08bec85ced5f6b68e474ac99a0c5338770d0bf87
+no_compression: false
